@@ -1,0 +1,140 @@
+#about {
+  margin-top: 50px;
+  padding: 14px 60px;
+}
+.section-about {
+  padding-top: 100px;
+}
+.title-about {
+  text-align: center;
+}
+.content-about {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 70vh;
+}
+.image-about {
+  width: 40%;
+}
+.image-about img {
+  width: 100%;
+}
+.text-about {
+  width: 45%;
+}
+.text-about div {
+  padding: 10px;
+}
+.flex-about {
+  display: flex;
+  align-items: center;
+}
+.skills {
+  display: flex;
+  font-size: 35px;
+}
+.fa-brands {
+  cursor: pointer;
+  padding: 0 5px;
+}
+i.fa-brands.fa-html5:hover {
+  color: #f25d27;
+}
+i.fa-brands.fa-css3:hover {
+  color: #035aa6;
+}
+i.fa-brands.fa-square-js:hover {
+  color: #f2ce1b;
+}
+i.fa-brands.fa-react:hover {
+  color: #5ed7f2;
+}
+i.fa-brands.fa-git-alt:hover {
+  color: #f25d27;
+}
+.h2 h2 {
+  padding: 0 10px;
+}
+.span-name {
+  background: radial-gradient(circle at 70%, #4ca5ff 10%, #b673f8 30%);
+  background-size: 400% 400%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  animation: textGradientAnimation 5s ease-in-out infinite;
+  -webkit-animation: textGradientAnimation 5s ease-in-out infinite;
+  font-weight: bold;
+}
+.button-contact a{
+  text-decoration: none;
+  color: #fff;
+}
+@-webkit-keyframes textGradientAnimation {
+  0% {
+    background-position: 50% 30%;
+  }
+  25% {
+    background-position: 100% 10%;
+  }
+  50% {
+    background-position: 100% 90%;
+  }
+  75% {
+    background-position: 60% 90%;
+  }
+  100% {
+    background-position: 50% 30%;
+  }
+}
+
+@keyframes textGradientAnimation {
+  0% {
+    background-position: 50% 30%;
+  }
+  25% {
+    background-position: 100% 10%;
+  }
+  50% {
+    background-position: 100% 90%;
+  }
+  75% {
+    background-position: 60% 90%;
+  }
+  100% {
+    background-position: 50% 30%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .content-about {
+    flex-direction: column;
+  }
+  .image-about {
+    width: 80%;
+  }
+  .text-about {
+    width: 100%;
+  }
+  .h2 {
+    text-align: center;
+  }
+  .title-about {
+    margin-bottom: 80px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #about {
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 415px) {
+  .flex-about {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .container-button {
+    text-align: center;
+  }
+}

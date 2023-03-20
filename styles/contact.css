@@ -1,0 +1,89 @@
+#contact {
+  padding: 16px 64px;
+}
+.section-contact {
+  padding-top: 80px;
+}
+.content-contact {
+  /* height: 80vh; */
+}
+.title-contact {
+  text-align: center;
+}
+.content-form {
+  text-align: center;
+}
+form div input {
+  background-color: #0d1117;
+  padding: 10px;
+  margin: 10px;
+  width: 40%;
+  border: 0;
+  border-bottom: 2px solid #969ba5;
+}
+.content-textarea {
+  height: 250px;
+}
+textarea {
+  background-color: #0d1117;
+  padding: 10px;
+  margin: 10px;
+  width: 40%;
+  height: 90%;
+  border: 0;
+  border-bottom: 2px solid #969ba5;
+  resize: none;
+}
+form div button {
+  font-size: 20px;
+  width: 40%;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  background: linear-gradient(90deg, #4ca5ff 2.34%, #b673f8 100.78%);
+  border: none;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+form div button:hover {
+  box-shadow: 0px -1px 39px 4px #4ca5ff;
+}
+input:focus {
+  outline: 0;
+}
+textarea:focus {
+  outline: 0;
+}
+@media only screen and (max-width: 900px) {
+  form div input {
+    width: 70%;
+  }
+  form div textarea {
+    width: 70%;
+  }
+  form div button {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  form div input {
+    width: 100%;
+  }
+  form div textarea {
+    width: 100%;
+  }
+  form div button {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 420px) {
+  form div input {
+    width: 100%;
+  }
+  form div textarea {
+    width: 100%;
+  }
+  form div button {
+    width: 100%;
+  }
+}

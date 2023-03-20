@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="title" content="Johao Ovalle | Portfolio Web Developer" />
+    <title>Johao Ovalle | Portfolio Web Developer</title>
+    <meta name="robots" content="all" />
+    <meta name="googlebot" content="all" />
+    <meta
+      name="keywords"
+      content="Portafolio, Johao Ovalle, Mi Portafolio, Desarrollador Web, Web"
+    />
+    <meta
+      name="description"
+      content="Pagina web construida para demostrar mis conocimientos"
+    />
+    <meta name="author" content="Johao Ovalle, johaoovalle@gmail.com" />
+    <meta name="copyright" content="Johao Ovalle" />
+    <link rel="canonical" href="https://johao-ovalle.netlify.app/" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/hero.css" />
+    <link rel="stylesheet" href="./styles/about.css" />
+    <link rel="stylesheet" href="./styles/portfolio.css" />
+    <link rel="stylesheet" href="./styles/contact.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script
+      src="https://kit.fontawesome.com/115983e7ba.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="./assets/image.png" />
+  </head>
+  <body style="overflow: auto">
+    <div>
+      <nav class="navbar">
+        <div class="image">
+          <a href="/"><img src="./assets/image.png" /></a>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a class="home_link" href="#home">Home</a></li>
+            <li><a class="about_link" href="#about">About me</a></li>
+            <li><a class="portfolio_link" href="#portfolio">Portfolio</a></li>
+            <li><a class="contact_link" href="#contact">Conctact</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars"></i>
+      </nav>
+      <section id="home">
+        <div class="content-hero">
+          <div data-aos="fade-right" data-aos-delay="100" class="content-text">
+            <div class="text_1">Hola mi nombre es</div>
+            <div class="text_2">Johao Ovalle</div>
+            <div class="text_3">y yo soy <span class="typed"></span></div>
+            <a href="#contact"
+              ><button class="button-contact">Contactame</button></a
+            >
+          </div>
+          <div class="content-image">
+            <img
+              data-aos="fade-right"
+              data-aos-delay="100"
+              src="./assets/image3.png"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="section-about">
+          <h2 class="title-about" data-aos="fade-up" data-aos-delay="100">
+            About me
+          </h2>
+          <div class="content-about" data-aos="fade-up" data-aos-delay="100">
+            <div class="image-about">
+              <img src="./assets/about.png" />
+            </div>
+            <div class="text-about">
+              <div class="h2">
+                <h2>Soy <span class="span-name">Johao Ovalle</span></h2>
+              </div>
+              <div>
+                <div>
+                  Soy Desarrollador Front-End , soy una persona autodidacta que
+                  siempre intenta aprender nuevas tecnologias y actualizarse a
+                  ellas. Actualmente me encuentro aprendiendo desarrollo
+                  Back-End con NodeJs junto con Express y MongoDB con el
+                  objetivo de armarme una aplicacion Full Stack.
+                </div>
+                <div class="flex-about">
+                  <p>Tecnologias que uso :</p>
+                  <div class="skills">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3"></i>
+                    <i class="fa-brands fa-square-js"></i>
+                    <i class="fa-brands fa-react"></i>
+                    <i class="fa-brands fa-git-alt"></i>
+                    <i class="fa-brands fa-github"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="container-button">
+                <button class="button-contact">
+                  <a download="CV" href="./assets/CV.pdf">Donwload Cv</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio">
+        <div class="section-portfolio">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="100"
+            class="content-portfolio"
+          >
+            <h2 class="title-portfolio">My portfolio</h2>
+            <div class="content-proyects">
+              <div class="proyect">
+                <div class="image-portfolio">
+                  <img src="./assets/pokedexV2.png" />
+                </div>
+                <div>
+                  <div>Una simple lista de Pokemons hecha con ReactJs</div>
+                </div>
+                <div class="buttons-links">
+                  <a href="https://github.com/JohaoDv/Pokedex" target="_blank"
+                    ><button><i class="fa-brands fa-github"></i></button
+                  ></a>
+                  <a
+                    href="https://johao-medina-pokedex.netlify.app/"
+                    target="_blank"
+                    ><button>
+                      <i
+                        class="fa-solid fa-arrow-up-right-from-square"
+                      ></i></button
+                  ></a>
+                </div>
+              </div>
+              <div class="proyect">
+                <div class="image-portfolio">
+                  <img src="./assets//shop.png" />
+                </div>
+                <div>
+                  <div>Un carrito de compras hecho con ReactJs</div>
+                </div>
+                <div class="buttons-links">
+                  <a href="https://github.com/JohaoDv/CartJs" target="_blank"
+                    ><button><i class="fa-brands fa-github"></i></button
+                  ></a>
+                  <a href="https://johao-cart.netlify.app" target="_blank"
+                    ><button>
+                      <i
+                        class="fa-solid fa-arrow-up-right-from-square"
+                      ></i></button
+                  ></a>
+                </div>
+              </div>
+              <div class="proyect">
+                <div class="image-portfolio">
+                  <img src="./assets/image2.png" />
+                </div>
+                <div>
+                  <div>Portafolio Web Personal v1 hecho con HTML, CSS & JS</div>
+                </div>
+                <div class="buttons-links">
+                  <a href="https://github.com/JohaoDv/PortfolioV1">
+                    <button><i class="fa-brands fa-github"></i></button
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="section-contact">
+          <div data-aos="fade-up" data-aos-delay="100" class="content-contact">
+            <h2 class="title-contact">Get in touch</h2>
+            <div class="content-form">
+              <script>
+                window.onerror = new Function("return true");
+                function sendMail() {
+                  var link =
+                    "johaoovalle@gmail.com" +
+                    "?&subject=" +
+                    escape(document.getElementById("subject").value) +
+                    "&body=" +
+                    "Me llamo " +
+                    escape(document.getElementById("name").value) +
+                    ", " +
+                    escape(document.getElementById("message").value);
+
+                  window.location.href = "mailto:" + link;
+                }
+              </script>
+              <form id="form">
+                <div>
+                  <input
+                    id="name"
+                    name="name"
+                    type="name"
+                    required
+                    placeholder="Name"
+                    autocomplete="off"
+                  />
+                </div>
+                <div>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    required
+                    placeholder="email"
+                    autocomplete="off"
+                  />
+                </div>
+                <div>
+                  <input
+                    id="subject"
+                    name="subject"
+                    type="subject"
+                    required
+                    placeholder="Subject"
+                    autocomplete="off"
+                  />
+                </div>
+                <div class="content-textarea">
+                  <textarea
+                    id="message"
+                    name="comments"
+                    placeholder="Message"
+                    required
+                  ></textarea>
+                </div>
+                <div>
+                  <button id="contact" onclick="sendMail(); return false">
+                    Send
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="footer-container">
+          <div class="footer-box">
+            <div class="icons">
+              <div class="email">johaoovalle@gmail.com</div>
+              <a href="https://github.com/JohaoDv" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/ovalle-medina-johao-armando-3556a0240/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin-in"></i
+              ></a>
+              <a href="https://wa.me/51926807924" target="_blank"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+            </div>
+            <div class="copyright">© Copyright 2023. All rights reserved.</div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: false,
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="./scripts/home.js"></script>
+    <script src="./scripts/nav.js"></script>
+    <script src="./scripts/form.js"></script>
+  </body>
+</html>

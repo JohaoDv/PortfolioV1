@@ -1,0 +1,65 @@
+#portfolio {
+  padding: 14px 60px;
+}
+.section-portfolio {
+  padding-top: 100px;
+}
+.content-portfolio {
+  height: auto;
+}
+.title-portfolio {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.content-proyects {
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+  flex-wrap: wrap;
+}
+.proyect {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(5px);
+  border-radius: 6px;
+  width: 360px;
+  height: 413px;
+  margin: 0 5px 30px 5px;
+  transition: all 300ms;
+}
+.proyect:hover {
+  transform: translateY(-10px);
+  border: 1px solid #4ca5ff;
+}
+.proyect div {
+  padding: 10px;
+  text-align: center;
+}
+.image-portfolio {
+  width: 360px;
+  height: 250px;
+  transition: all 0.2s ease-in-out;
+}
+.image-portfolio img {
+  width: 100%;
+  height: 100%;
+}
+.buttons-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons-links button {
+  font-size: 30px;
+  border: none;
+  border-radius: 6px;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 0 5px;
+  padding: 5px 10px;
+}
+.buttons-links button:hover {
+  background: linear-gradient(90deg, #4ca5ff 2.34%, #b673f8 100.78%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
